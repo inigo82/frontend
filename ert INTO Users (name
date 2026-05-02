@@ -1,0 +1,6 @@
+ id |   usuario   |                           password                           |   role   
+----+-------------+--------------------------------------------------------------+----------
+  1 | prof@uni.es | $2b$10$N9qo8uLOickgx2ZMRZo5i.eI3Dq1Kp4G/iZQDZlFz3c.s0r0Gqq7G | profesor
+  2 | prof        | $2a$10$lPtam/P0Si/Jdx9qbvgkdOgvB6mOxi2CL1I4FoWjNI.8zACgrnMte | profesor
+(2 rows)
+
