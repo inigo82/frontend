@@ -38,7 +38,6 @@ function handleToTerminal(handle?: string | null) {
 
 /**
  * Devuelve qué índice de nodo es el positivo y cuál el negativo
- * basándose en tu regla de orientación.
  */
 function getTerminalsByOrientation(br: Branch) {
   // Regla: si orientation es "left" o "up", el NEGATIVO está en A.
