@@ -39,7 +39,7 @@ function handleToTerminal(handle?: string | null) {
 function getPolaritySign(orientation?: string) {
   if (!orientation) return 1;
 
-  // negativo en A → invertimos signo
+  // negativo en A invertimos signo
   if (orientation === "left" || orientation === "up") {
     return -1;
   }
@@ -97,7 +97,7 @@ export function solveCircuit(nodes: RFNode[], edges: RFEdge[]) {
   const nNodes = idx;
 
   // -------------------------
-  // 🔥 GND real
+  // GND real
   // -------------------------
   let gndNode: number | null = null;
 
