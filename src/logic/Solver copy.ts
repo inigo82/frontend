@@ -97,7 +97,7 @@ export function solveCircuit(nodes: RFNode[], edges: RFEdge[]) {
   const nNodes = idx;
 
   // -------------------------
-  // 🔥 GND real
+  // GND real
   // -------------------------
   let gndNode: number | null = null;
 
